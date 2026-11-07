@@ -1,0 +1,81 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+.encabezado{
+margin-bottom: 20px;
+}
+
+.encabezado h1 {
+    color: #1f2937;
+    margin: 10px 0;
+}
+
+.encabezado p {
+    font-size:medium;
+}
+.plan_t{
+    color:rgb(85, 18, 231);
+    font-size: small;
+}
+.caracteristicas-si strong{
+    color: green;
+    padding: 0 10px;
+    margin: 8px;
+
+}
+.caracteristicas-si{
+  
+    padding: 0 10px;
+    margin: 8px;
+    
+    
+}
+.caracteristicas-no{
+    color: rgb(185, 183, 183);
+    text-decoration: line-through;
+}
+
+.boton{
+    margin-top: 25px;
+}
+.boton button{
+    color: white;
+    background-color: rgb(13, 13, 82);
+    border-radius: 25px;
+    padding:12px 50px;
+    height: auto;
+    width: auto;
+    font-weight: bold;
+
+}
+
+.contenedor{
+text-align: center;
+width: 100%;
+max-width: 448px;
+padding: 30px;
+background: white;
+border-radius: 16px;
+box-shadow:0 5px 5px
+
+
+}
+
+.etiqueta{
+    background-color: rgb(80, 0, 253);
+    color: white;
+    display:inline;
+    padding: 6px 16px;
+    width: 80px;
+    border-radius: 20px 0px;
+    font-size: medium;
+    justify-content:center;
+
+    
+    
+}
